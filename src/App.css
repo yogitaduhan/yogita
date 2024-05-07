@@ -1,0 +1,253 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+/* .main{
+  width: 100%;
+ 
+
+}
+.paragraph{
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  font-size: 40px;
+  background-color: #090a0a;
+  height: 550px;
+}
+.navbar{
+  background-color: rgb(245, 241, 241);
+  height: 40px;
+ box-shadow: #282c34;
+ border: groove;
+  width: 100%;
+  align-items: center;
+  /* margin-left: 400px; */
+ 
+  /* display: flex;
+  padding-left: 10px;
+  list-style: none;
+  
+
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+.first{
+  margin-right: 40px;
+ 
+  text-align: center;
+  text-shadow: #282c34;
+box-shadow: #3f3f41 50px;
+
+}
+.first:hover{
+
+background-color:lightgray;
+height: 25px;
+
+/* width:100px; */
+/* text-align: center;
+border-radius: 15px;
+
+}
+.second{
+  background-color: rgb(224, 218, 218);
+  height:25px;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 400px;
+  border-radius: 5px;
+  padding-left: 5px;
+} */ 
+/* styles.css */
+
+body {
+  background-color: #33363d;
+}
+
+.navb {
+  display: flex;
+  width: 90%;
+  height: 100px;
+  padding: 10px 50px;
+}
+
+.menu,
+.menu1 {
+  margin: 10px;
+  padding: 8px 20px;
+  color: white;
+}
+
+.outer {
+  margin: auto;
+  display: flex;
+}
+
+.menu1 {
+  margin-left: 10px;
+  color: gray;
+}
+
+.search {
+  height: 30px;
+  width: 120px;
+  margin: 35px 0px;
+  background-color: #48494d;
+  color: #9ea0ab;
+  border: transparent;
+  border-radius: 6px;
+  padding: 0px 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+  margin: 80px 300px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  font-size: 16px;
+}
+
+.name {
+  color: #fcc969;
+  font-size: 40px;
+}
+
+.header {
+  background-color: #34353A;
+  height: 500px;
+  box-shadow: 0px 8px 10px #2d2e33;
+}
+
+div.about {
+  height: 4000px;
+  margin: 130px;
+}
+
+span.about {
+  font-size: 50px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.about {
+  display: flex;
+  color: white;
+  font-size: 23px;
+}
+
+hr {
+  width: 200px;
+  height: 2px;
+  background-color: #fcc969;
+  border: transparent;
+  border-radius: 2px;
+  margin: 15px 10px 0px 0px;
+}
+
+div.skill 
+{
+  background-color: #3e3f44;
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 70px;
+  color: white;
+  font-size: 25px;
+  margin: 15px 15px;
+}
+p.sk
+{
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 5px;
+}
+div.row
+{
+  display: flex;
+  justify-content: center;
+}
+.skill1
+{
+  background-color: transparent;
+  height: 300px;
+  width: 250px;
+  margin-right: -200px;
+  margin-left: 80px;
+  margin-top: 160px;
+  display: inline-block;
+}
+.dots
+{
+  height: 12px;
+  width: 12px;
+  background-color: #fcc969;
+  border-radius: 50%;
+  margin:35px 23px;
+  opacity: 0.3;
+}
+.port
+{
+  font-size: 50px;
+  color: white;
+  margin-top: -80px;
+  text-align: center;
+  font-family:serif;
+  font-weight: 600;
+}
+.portfolio
+{
+  width: 330px;
+  height: 330px;
+  background-color: azure;
+  margin: 40px 12px;
+  margin-bottom: -20px;
+}
