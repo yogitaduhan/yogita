@@ -7,17 +7,19 @@ export const Portfolio = () => {
     <>
      <div>Portfolio</div>
     <div className='row1'>
-    <div className='photo'><img src={imga} height={60} /><br></br></div>
-        <div className='photo'><img src={imgb} height={60} /><br></br></div>
-        <div className='photo'><img src={imgc} height={60} /><br></br></div>
+    <div className='photo'><img src={imga} height={200}  width={300} /><br></br></div>
+        <div className='photo'><img src={imgb} height={200} width={300}/><br></br></div>
+        <div className='photo'><img src={imgc} height={200} width={300}/><br></br></div>
  
     </div>
     <div className='row1'>
-    <div className='photo'><img src={imga} height={60} /><br></br>bu</div>
-        <div className='photo'><img src={imgb} height={60} /><br></br>building</div>
-        <div className='photo'><img src={imgc} height={60} /><br></br>building</div>
+    <div className='photo'><img src={imgc} height={200} width={300}/><br></br></div>
+        <div className='photo'><img src={imgb} height={200} width={300}/><br></br></div>
+        
+        <div className='photo'><img src={imga} height={200} width={300}/><br></br></div>
  
     </div>
+    <div className='button'>View More</div>
    
     </>
    

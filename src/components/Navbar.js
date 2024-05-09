@@ -1,10 +1,10 @@
 import React from 'react'
- import img from './images/img2.png'
+ import img from './images/img2.jpg'
 function  Navbar () {
   return (
     <>
     <div className='navb'>
-         <img src={img} width={120} className='logo' /> 
+         <img src={img} width={80}  height={50} className='logo' /> 
           <div className='outer'>
           <div className='menu'>About</div>
           <div className='menu1'>Portfolio</div>
